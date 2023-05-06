@@ -1,3 +1,4 @@
+# 启用图片版lssv，此区域禁用
 from functools import cmp_to_key
 
 from nonebot import CommandSession, on_command
