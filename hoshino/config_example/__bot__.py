@@ -43,13 +43,14 @@ MODULES_ON = {
     # 'hourcall',
     # 'kancolle',
     # 'mikan',
-    'pcrclanbattle',
+    'pcrclanbattle',    # 禁用
     'priconne',
-    # 'setu',
+    # 'setu',   # 未禁用
     # 'translate',
     # 'twitter',
+    'picfinder',    # 官方整合的picfinder_take
     # 以下为自添加插件
-    'picfinder_take',   # https://github.com/pcrbot/picfinder_take
+    # 'picfinder_take',   # https://github.com/pcrbot/picfinder_take 官方已整合，弃用
     'groupguess',   # https://github.com/BeiYazi0/groupguess
     'huannai_plugin_fortune',   # https://github.com/SonderXiaoming/huannai_plugin_fortune
     'yaowoyizhi',   # https://github.com/watermellye/yaowoyizhi/
