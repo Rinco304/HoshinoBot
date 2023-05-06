@@ -27,6 +27,10 @@ RES_DIR = r'./res/'
 # 使用http协议时需填写，原则上该url应指向RES_DIR目录
 RES_URL = 'http://127.0.0.1:5000/static/'
 
+# B站视频解析配置
+analysis_blacklist = [] # 不解析里面填写的QQ号发的链接 List[int]
+analysis_display_image = True # 是否显示封面 True/False
+
 
 # 启用的模块
 # 初次尝试部署时请先保持默认
@@ -44,4 +48,39 @@ MODULES_ON = {
     # 'setu',
     # 'translate',
     # 'twitter',
+    # 以下为自添加插件
+    'picfinder_take',   # https://github.com/pcrbot/picfinder_take
+    'groupguess',   # https://github.com/BeiYazi0/groupguess
+    'huannai_plugin_fortune',   # https://github.com/SonderXiaoming/huannai_plugin_fortune
+    'yaowoyizhi',   # https://github.com/watermellye/yaowoyizhi/
+    'whattoeat',    # https://github.com/A-kirami/whattoeat
+    'generator',
+    'dailywife',    # https://github.com/SonderXiaoming/dailywife
+    'headimg_generator',    # https://github.com/pcrbot/cappuccilo_plugins/tree/master/generator
+    'pcrjjc_huannai',   # https://github.com/SonderXiaoming/pcrjjc_huannai
+    'good_morning',     # https://github.com/azmiao/good_morning
+    'ai',   # https://github.com/joeyHXD/ai
+    'lifeRestart_bot',      # https://github.com/DaiShengSheng/lifeRestart_bot
+    'image_generator',      # https://github.com/BlueDeer233/image_generator
+    'Wordle4Hoshino',   # https://github.com/kokoro-ele/Wordle4Hoshino
+    'groupchat',    # https://github.com/zangxx66/HoshinoBot-xcwRecord/tree/master/groupchat
+    'draw-card',    # https://github.com/BeiYazi0/draw-card
+    'tarot',    # https://github.com/haha114514/tarot_hoshino
+    'login_bonus',  # https://github.com/SonderXiaoming/login_bonus
+    'homo',     # https://github.com/SonderXiaoming/homo
+    'determine',    # https://github.com/pcrbot/determine
+    'RSS',  # https://github.com/pcrbot/RSS
+    'youzi_voice',  # https://github.com/SonderXiaoming/youzi_voice
+    'aichat-chatGPT',   # https://github.com/Cosmos01/aichat-chatGPT
+    'traceanime',   # https://github.com/pcrbot/determine
+    'custom',   # https://github.com/mengshouer/HoshinoBot-Plugins/tree/master/custom
+    'resou',    # https://github.com/BeiYazi0/resou
+    'GenshinUID',   # https://github.com/KimigaiiWuyi/GenshinUID
+    'genshin-gacha',    # https://github.com/H-K-Y/Genshin_Impact_bot/tree/main/gacha
+    'Blue_Archive_HoshinoBot',      # https://github.com/Cosmos01/Blue_Archive_HoshinoBot
+    'akgacha',      # https://github.com/xulai1001/akgacha
+    'akinator',     # https://github.com/Rinco304/akinator
+    'hoshinobot-plugin-ddcheck',    # https://github.com/Rinco304/hoshinobot-plugin-ddcheck
+    'answersbook',      # https://github.com/A-kirami/answersbook
+    'image_lssv'    # https://github.com/RSRH-Rs/image_lssv
 }
