@@ -22,7 +22,7 @@ BLACKLIST_ID = [1072, 1908, 4031, 9000]
 
 gm = GameMaster(DB_PATH)
 sv = Service(
-    "pcr-avatar-guess",
+    "pcr猜头像",
     bundle="pcr娱乐",
     help_="""
 [猜头像] 猜猜bot随机发送的头像的一小部分来自哪位角色
