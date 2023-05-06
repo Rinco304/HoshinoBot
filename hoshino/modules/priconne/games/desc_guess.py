@@ -22,7 +22,7 @@ TURN_NUMBER = 5
 DB_PATH = os.path.expanduser("~/.hoshino/pcr_desc_guess.db")
 
 gm = GameMaster(DB_PATH)
-sv = Service("pcr-desc-guess", bundle="pcr娱乐", help_="""
+sv = Service("pcr猜角色", bundle="pcr娱乐", help_="""
 [猜角色] 猜猜bot在描述哪位角色
 [猜角色排行] 显示小游戏的群排行榜(只显示前十)
 """.strip()
