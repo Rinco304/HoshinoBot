@@ -55,7 +55,7 @@ MODULES_ON = {
     'huannai_plugin_fortune',   # https://github.com/SonderXiaoming/huannai_plugin_fortune
     'yaowoyizhi',   # https://github.com/watermellye/yaowoyizhi/
     'whattoeat',    # https://github.com/A-kirami/whattoeat
-    'generator',
+    'generator',    # https://github.com/pcrbot/cappuccilo_plugins/tree/master/generator
     'dailywife',    # https://github.com/SonderXiaoming/dailywife
     'headimg_generator',    # https://github.com/pcrbot/cappuccilo_plugins/tree/master/generator
     'pcrjjc_huannai',   # https://github.com/SonderXiaoming/pcrjjc_huannai
