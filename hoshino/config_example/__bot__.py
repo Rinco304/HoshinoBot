@@ -64,7 +64,7 @@ MODULES_ON = {
     'lifeRestart_bot',      # https://github.com/DaiShengSheng/lifeRestart_bot
     'image_generator',      # https://github.com/BlueDeer233/image_generator
     'Wordle4Hoshino',   # https://github.com/kokoro-ele/Wordle4Hoshino
-    'groupchat',    # https://github.com/zangxx66/HoshinoBot-xcwRecord/tree/master/groupchat
+    'groupchat',    # https://github.com/Rinco304/HoshinoBot-xcwRecord
     'draw-card',    # https://github.com/BeiYazi0/draw-card
     'tarot',    # https://github.com/haha114514/tarot_hoshino
     'login_bonus',  # https://github.com/SonderXiaoming/login_bonus
@@ -83,5 +83,7 @@ MODULES_ON = {
     'akinator',     # https://github.com/Rinco304/akinator
     'hoshinobot-plugin-ddcheck',    # https://github.com/Rinco304/hoshinobot-plugin-ddcheck
     'answersbook',      # https://github.com/A-kirami/answersbook
-    'image_lssv'    # https://github.com/RSRH-Rs/image_lssv
+    'image_lssv',    # https://github.com/RSRH-Rs/image_lssv
+    'xcw',      # https://github.com/Rinco304/HoshinoBot-xcwRecord
+    'echo',      # https://github.com/Rinco304/HoshinoBot-xcwRecord
 }
