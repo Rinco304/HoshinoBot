@@ -11,6 +11,15 @@ from nonebot.message import _check_calling_me_nickname
 import hoshino
 from hoshino import R, Service, util
 
+import sys
+import os
+
+# 获取 BANNED_WORD.py 所在目录的绝对路径
+banned_word_path = os.path.abspath(os.path.dirname(__file__))
+
+# 将 BANNED_WORD.py 所在目录添加到 sys.path 中
+sys.path.append(banned_word_path)
+
 '''
 from nonebot.command import CommandManager
 def parse_command(bot, cmd_str):
@@ -62,14 +71,15 @@ async def hb_handler(ctx):
 '''
 # ============================================ #
 
-BANNED_WORD = (
-    'rbq', 'RBQ', '憨批', '废物', '死妈', '崽种', '傻逼', '傻逼玩意',
-    '没用东西', '傻B', '傻b', 'SB', 'sb', 'Sb', '煞笔', 'cnm', '爬', 'kkp',
-    'nmsl', '你妈死了', 'D区', '口区', '我是你爹', 'nmbiss', '弱智', '给爷爬', '杂种爬','爪巴',
-    '你给我爬', '你什么时候会死', '是rbq', '是RBQ', '是憨批', '是废物','是崽种', '是傻逼',
-    '是傻B', '是傻b', '是SB', '是sb', '是煞笔', '是Sb', '脑壳有包',
-    '智障吧','是傻子','你是2b吧','肥猪','吃屎','吃屎吧','你可以滚了','你可以爬了'
-)
+# BANNED_WORD = (
+#     'rbq', 'RBQ', '憨批', '废物', '死妈', '崽种', '傻逼', '傻逼玩意',
+#     '没用东西', '傻B', '傻b', 'SB', 'sb', 'Sb', '煞笔', 'cnm', '爬', 'kkp',
+#     'nmsl', '你妈死了', 'D区', '口区', '我是你爹', 'nmbiss', '弱智', '给爷爬', '杂种爬','爪巴',
+#     '你给我爬', '你什么时候会死', '是rbq', '是RBQ', '是憨批', '是废物','是崽种', '是傻逼',
+#     '是傻B', '是傻b', '是SB', '是sb', '是煞笔', '是Sb', '脑壳有包',
+#     '智障吧','是傻子','你是2b吧','肥猪','吃屎','吃屎吧','你可以滚了','你可以爬了'
+# )
+from BANNED_WORD import BANNED_WORD
 @on_command('ban_word', aliases=BANNED_WORD, only_to_me=True)
 async def ban_word(session):
     ctx = session.ctx
