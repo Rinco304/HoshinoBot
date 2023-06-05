@@ -84,6 +84,21 @@ MODULES_ON = {
     'hoshinobot-plugin-ddcheck',    # https://github.com/Rinco304/hoshinobot-plugin-ddcheck
     'answersbook',      # https://github.com/A-kirami/answersbook
     'image_lssv',    # https://github.com/RSRH-Rs/image_lssv
-    'xcw',      # https://github.com/Rinco304/HoshinoBot-xcwRecord
+    'xcw',      # https://github.com/Rinco304/HoshinoBot-xcwRecord  # 此文件夹带了一个其他功能(遇事不决)
     'echo',      # https://github.com/Rinco304/HoshinoBot-xcwRecord
+    'whoatme',  # https://github.com/RSRH-Rs/whoatme
+    'aircon',   # https://github.com/iamwyh2019/aircon
+    'shaojo',   # https://github.com/Soung2279/haru-bot-setup/tree/master/hoshino/modules/shaojo   # 无法git请手动添加
+    'pcrmemorygames',   # https://github.com/Soung2279/haru-bot-setup/tree/master/hoshino/modules/pcrmemorygames    # 无法git请手动添加
+    'nmsl',     # https://github.com/Soung2279/haru-bot-setup/tree/master/hoshino/modules/nmsl   # 无法git请手动添加
+    'nowtime',  # https://github.com/Soung2279/haru-bot-setup/tree/master/hoshino/modules/nowtime   # 无法git请手动添加
+    'mem_birthday',     # https://github.com/pcrbot/mem_birthday
+    'hiumsentences',   # https://github.com/Soung2279/haru-bot-setup/tree/master/hoshino/modules/hiumsentences   # 无法git请手动添加
+    'guaihua', # https://github.com/Soung2279/haru-bot-setup/tree/master/hoshino/modules/guaihua    # 无法git请手动添加
+    'cp',   # https://github.com/Soung2279/haru-bot-setup/tree/master/hoshino/modules/cp    # 无法git请手动添加
+    'guessvtb',     # 无法git请手动添加
+    'SetuScore',    # https://github.com/GaryDu0123/SetuScore   # 个人增加了反并发
+    'pokemon_whois',
+    'dailymoyu',    # https://github.com/Rinco304/dailymoyu
+    'Daily_News',   # https://github.com/Rinco304/Daily_News
 }
