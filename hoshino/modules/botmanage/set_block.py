@@ -12,8 +12,6 @@ async def set_block(bot, ev: CQEvent):
         return
     try:
         content = ev.message.extract_plain_text().strip()
-        if not priv.check_priv(ev, priv.SUPERUSER):
-            return
         match = re.match(r'(\d+)\s+(.+)', content)
         if match:
             user_id = match.group(1)
