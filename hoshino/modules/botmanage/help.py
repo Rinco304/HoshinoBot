@@ -60,7 +60,7 @@ github.com/Ice9Coffee/HoshinoBot
 # 魔改请保留 github.com/Ice9Coffee/HoshinoBot 项目地址
 
 '''
-TOP_MANUAL = '''
+TOP_MANUAL = 
 ====================  Cola功能说明  ====================
 ※首次使用时建议管理员先使用[功能列表]查看所有功能开关状态※
 ======================  通用功能  ======================
@@ -207,7 +207,7 @@ TOP_MANUAL = '''
 [RSS订阅帮助]       订阅B站up主动态，开播通知等功能
 
 [启用/禁用 bilibili视频解析]       使用较多单独列出
-'''.strip()
+.strip()
 # 魔改请保留 github.com/Ice-Cirno/HoshinoBot 项目地址
 '''
 
